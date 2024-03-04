@@ -31,5 +31,5 @@ ProductTag.init(
     modelName: 'product_tag',
   }
 );
-Product.belongsToMany(Tag, { through: ProductTag });
+// Product.belongsToMany(Tag, { through: ProductTag });
 module.exports = ProductTag;

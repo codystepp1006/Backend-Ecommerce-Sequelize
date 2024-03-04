@@ -55,6 +55,6 @@ Product.init(
     modelName: 'product',
   }
 );
-Product.hasMany(Category);
+// Product.hasMany(Category);
 
 module.exports = Product;
