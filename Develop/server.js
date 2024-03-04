@@ -14,3 +14,7 @@ app.use(routes);
 app.listen(PORT, () => {
   console.log(`App listening on port http://localhost:${PORT}`);
 });
+
+// The `/api/products` endpoint
+// The `/api/categories` endpoint
+// The `/api/tags` endpoint
